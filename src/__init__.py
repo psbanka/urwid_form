@@ -160,7 +160,7 @@ class DialogDisplay(urwid.WidgetWrap):
         else:
             self.loop.widget = self.view
 
-class TntForm(object):
+class Form(object):
     """
     Main form class.  Returned object is callable
     """
