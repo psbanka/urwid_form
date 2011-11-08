@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from urwid_form import TntForm
+from urwid_form import Form
 
 def test_callback(object_type, object_name, template_name, name, arg_dict):
     import random
@@ -147,7 +147,7 @@ def main():
     },
 }}
 
-    form = TntForm(form_spec)
+    form = Form(form_spec)
     values = form()
     pprint(values)
 
